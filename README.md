@@ -15,3 +15,8 @@ Sistema para mostrar quais os políticos estão envolvidos em corrupção PARA N
 - [victorvoid](https://github.com/victorvoid)
 - [guilhermependezza](https://github.com/guilhermependezza)
 - [guilhermeepaixaoo](https://github.com/guilhermeepaixaoo)
+
+## Não se esqueça
+- `npm install`
+- `bower install`
+- `gulp`
