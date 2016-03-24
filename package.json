@@ -1,0 +1,24 @@
+{
+  "name": "project-poloticos-corruptos",
+  "version": "1.0.0",
+  "description": "Sistema para mostrar quais os políticos estão envolvidos em corrupção PARA NUNCA MAIS NINGUÉM VOTAR NELES!!!",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webschool-io/Project-Politicos-Corruptos.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "js"
+  ],
+  "author": "WebSchool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Webschool-io/Project-Politicos-Corruptos/issues"
+  },
+  "homepage": "https://github.com/Webschool-io/Project-Politicos-Corruptos#readme"
+}
