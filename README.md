@@ -20,8 +20,25 @@ Sistema para mostrar quais os políticos estão envolvidos em corrupção PARA N
 
 Coordenação: Suissinho.
 
-## Não se esqueça
+## Arquitetura
 
-- `npm install`
-- `bower install`
-- `gulp`
+### Entidades
+
+- Political: político
+- PoliticalParty: partido
+
+#### Political
+
+Entidade que representa o Político e para tanto deve conter os seguintes campos:
+
+- name: String
+- polticalParty: \_id
+- currentPosition: String
+- previousPositions: Array
+- actsOfCorruption: Array
+
+#### PoliticalParty
+
+- name: String
+- releaseYear: Date
+
