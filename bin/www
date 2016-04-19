@@ -1,9 +1,12 @@
 #!/usr/bin/env node
-var debug = require('debug')('Project-Politicos-Corruptos');
-var app = require('../app');
+
+"use strict";
+
+const debug = require('debug')('Project-Politicos-Corruptos'),
+  app = require('../app');
 
 app.set('port', process.env.PORT || 3000);
 
-var server = app.listen(app.get('port'), function() {
+var server = app.listen(app.get('port'), () => {
   debug('Express server listening on port ' + server.address().port);
 });
